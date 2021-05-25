@@ -1,14 +1,16 @@
 <template>
   <div id="app">
 
-    <app-header :maxQuotes="maxQuotes"></app-header>
+    <appHeader :quotes='quotes' :maxQuotes="maxQuotes"></appHeader>
+    <newQuote> </newQuote>
       
     
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
+import header from './components/Header.vue';
+import newQuote from './components/newQuote.vue';
 
 export default {
   name: 'app',
@@ -17,7 +19,7 @@ export default {
                 quotes: [
                     'Just a Quote to see something'
                 ],
-                maxQuotes: 10
+                maxQuotes: 100
             }
         },
         methods: {
@@ -25,7 +27,8 @@ export default {
         },
         components: {
 
-            appHeader: Header
+            appHeader: header,
+            newQuote: newQuote,
         }
 }
 </script>
