@@ -1,6 +1,6 @@
 # my_fav_quote
 
-> A Vue.js project
+A pastime project to add my favorite quotes.
 
 ## Build Setup
 
