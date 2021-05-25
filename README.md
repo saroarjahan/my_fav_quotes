@@ -1,2 +1,2 @@
 # my_fav_quotes
-A hobby project to save my favourite quotes.
+A pastime project to save my favorite quotes.
